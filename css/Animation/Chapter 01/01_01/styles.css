@@ -1,0 +1,16 @@
+/* Animation Basics */
+body {
+	background-color: #D8E8FA;
+}
+
+.wrapper {
+	margin: 2em auto 2em auto;
+	width:350px;
+	position:relative;
+	border: 1px solid black;
+}
+
+.blue_robot {
+	border: 1px solid red;
+	transform: skewX(30deg) skewY(60deg) scale(.5) rotate(180deg);
+}

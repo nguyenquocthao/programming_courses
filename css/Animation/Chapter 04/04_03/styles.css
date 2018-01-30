@@ -1,0 +1,20 @@
+.wrap {
+  width:40%;
+  margin:4em auto;  
+}
+
+.fill {
+  animation: charge 2s cubic-bezier(.17,.67,.54,.99), changeCol 2s ease-out forwards;
+}
+
+
+@keyframes charge {
+  0% {transform: scaleX(0);}
+  100% {transform: scaleX(1);}
+}
+
+@keyframes changeCol {
+	0%, 25% {fill: red;}
+	50%, 100% {fill:#72CC58;}
+}
+
